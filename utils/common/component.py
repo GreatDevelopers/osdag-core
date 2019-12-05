@@ -1,5 +1,5 @@
-from app.utils.common.material import Material
-from app.utils.common.is800_2007 import IS800_2007
+from utils.common.material import Material
+from utils.common.is800_2007 import IS800_2007
 import sqlite3
 
 
@@ -7,12 +7,13 @@ class Component(object):
 
     def __init__(self, material=Material()):
         self.material = material
-        self.path_to_database = "../../databases/Intg_osdag.sqlite"
+        self.path_to_database = "ResourceFiles/Database/Intg_osdag.sqlite"
 
 
 class Bolt(Component):
 
     def __init__(self, grade=0.0, diameter=0.0, bolt_type="", length=0.0, material=Material()):
+        super(Bolt, self).__init__(material)
         self.grade = grade
         self.diameter = diameter
         self.bolt_type = bolt_type
@@ -22,7 +23,7 @@ class Bolt(Component):
         self.bolt_capacity = 0.0
         self.no_of_bolts = 0
         self.bolt_group_capacity = 0.0
-        super(Bolt, self).__init__(material)
+
 
     def __repr__(self):
         repr = "Bolt\n"

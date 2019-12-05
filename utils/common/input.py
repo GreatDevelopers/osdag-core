@@ -3,11 +3,11 @@ from app.utils.common.load import Load
 from app.utils.common.material import Material
 
 
-class Input(object):
+class Main(object):
     pass
 
 
-class ConnectionInput(Input):
+class ConnectionInput(Main):
     pass
 
 
