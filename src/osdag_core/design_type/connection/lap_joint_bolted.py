@@ -1074,7 +1074,7 @@ class LapJointBolted(MomentConnection):
             if not getattr(self, 'design_status', False):
                 self.report_input = {
                     KEY_MODULE: "Lap Joint Bolted Connection",
-                    KEY_MAIN_MODULE: "Simple Connection",
+                    KEY_MAIN_MODULE: "Plate(d) Connection",
                     "Design Status": "TITLE",
                     "Status": "Design not completed successfully.",
                 }
@@ -1099,7 +1099,7 @@ class LapJointBolted(MomentConnection):
                 return True
 
             self.module = g('module', 'Lap Joint Bolted')
-            self.mainmodule = 'Simple Connection'
+            self.mainmodule = 'Plate(d) Connection'
             design_for = str(g('design_for', 'Tension')).strip()
             is_comp = design_for.lower().startswith('c')
             
@@ -1143,7 +1143,7 @@ class LapJointBolted(MomentConnection):
 
             self.report_input = {
                 KEY_MODULE: "Lap Joint Bolted Connection",
-                KEY_MAIN_MODULE: "Simple Connection",
+                KEY_MAIN_MODULE: "Plate(d) Connection",
                 KEY_DISP_DESIGN_FOR: design_for,
                 "Thickness of Plate-1 (mm) *": plate1_thk,
                 "Thickness of Plate-2 (mm) *": plate2_thk,
