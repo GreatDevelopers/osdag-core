@@ -524,7 +524,6 @@ class CreateLatex(Document):
                 doc.append(TextColor(colour,'\n'+msg))
         try:
             latex_executable = get_latex_executable()
-            print('latex_executable', latex_executable)
             doc.generate_pdf(filename, compiler=latex_executable, clean_tex = False)
         except Exception as e:
             pass

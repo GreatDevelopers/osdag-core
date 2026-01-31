@@ -4,9 +4,11 @@ openpyxl
 pandas
 pylatex
 pyside6
+markdown
+osdag_latex_env
 pythonocc-core
 click
-pyyaml
+yaml
 smesh
 sqlite
 tbb
