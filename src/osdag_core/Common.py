@@ -48,29 +48,10 @@ def get_documents_folder():
 
 def get_latex_executable():
     osdag_latex = OsdagLatexEnv()
-
-    latex_env =  str(osdag_latex.tex_root)
-    if not os.path.isdir(latex_env):
-        # --- System TeX path resolution (Linux / macOS / Windows) ---
-        system_pdflatex = shutil.which("pdflatex")
-
-        if system_pdflatex:
-            return os.path.abspath(system_pdflatex)
-        else:
-            raise FileNotFoundError("LaTeX environment not found. Please ensure that the osdag_latex_env is installed or that pdflatex is installed on your system.")  
-    else:
-        if sys.platform.startswith("win"):
-            latex_executable = os.path.join(latex_env, "bin", "windows", "pdflatex.exe")
-            osdag_latex.configure_tex()
-            return latex_executable
-        else:   # Linux / Unix / macOS
-            system_pdflatex = shutil.which("pdflatex")
-            if system_pdflatex:
-                return os.path.abspath(system_pdflatex)
-            else:
-                raise FileNotFoundError("pdflatex not found in system PATH. Please install TeXLive.")
-
-
+    latex_exec = osdag_latex.pdflatex
+    if latex_exec :
+        return str(latex_exec)
+    
 PATH_TO_DATABASE = files("osdag_core.data.ResourceFiles.Database").joinpath("Intg_osdag.sqlite")
 PDFLATEX = get_latex_executable()
 

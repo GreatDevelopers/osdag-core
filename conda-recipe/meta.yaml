@@ -47,12 +47,12 @@ requirements:
     - conda-forge::wheel
   
   host:
-    - conda-forge::python<=3.13
+    - conda-forge::python>=3.11,<=3.13
     - conda-forge::setuptools
     - conda-forge::wheel
     - conda-forge::pip
   run:
-    - conda-forge::python<=3.13
+    - conda-forge::python>=3.11,<=3.13
     - conda-forge::numpy
     - conda-forge::openpyxl
     - conda-forge::pandas
