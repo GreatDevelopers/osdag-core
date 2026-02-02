@@ -561,13 +561,13 @@ class Connection(Main):
                 primary = design_dictionary[KEY_SUPTNGSEC]
                 secondary = design_dictionary[KEY_SUPTDSEC]
                 conn = sqlite3.connect(PATH_TO_DATABASE)
-                cursor = conn.execute("SELECT D FROM BEAMS WHERE Designation = ( ? ) ", (primary,))
+                cursor = conn.execute("SELECT D FROM BEAMS WHERE Designation = ( ? ) UNION SELECT D FROM COLUMNS WHERE Designation = ( ? )", (primary, primary))
                 lst = []
                 rows = cursor.fetchall()
                 for row in rows:
                     lst.append(row)
                 p_val = lst[0][0]
-                cursor2 = conn.execute("SELECT D FROM BEAMS WHERE Designation = ( ? )", (secondary,))
+                cursor2 = conn.execute("SELECT D FROM BEAMS WHERE Designation = ( ? ) UNION SELECT D FROM COLUMNS WHERE Designation = ( ? )", (secondary, secondary))
                 lst1 = []
                 rows1 = cursor2.fetchall()
                 for row1 in rows1:

@@ -576,7 +576,7 @@ class BasePlateConnection(MomentConnection, IS800_2007, IS_5624_1993, IS1367_Par
         t22 = (KEY_AXIAL_TENSION_BP, KEY_DISP_AXIAL_TENSION_BP, TYPE_TEXTBOX, None, False, 'Int Validator')
         options_list.append(t22)
 
-        t10 = (KEY_SHEAR_BP, KEY_DISP_SHEAR_BP, '', None, True, 'Int Validator')
+        t10 = (KEY_SHEAR_BP, KEY_DISP_SHEAR_BP, TYPE_HEADING, None, True, 'Int Validator')
         options_list.append(t10)
 
         t10 = (KEY_SHEAR_MAJOR, KEY_DISP_SHEAR_MAJOR, TYPE_TEXTBOX, None, True, 'Int Validator')
@@ -585,7 +585,7 @@ class BasePlateConnection(MomentConnection, IS800_2007, IS_5624_1993, IS1367_Par
         t10 = (KEY_SHEAR_MINOR, KEY_DISP_SHEAR_MINOR, TYPE_TEXTBOX, None, True, 'Int Validator')
         options_list.append(t10)
 
-        t11 = (KEY_MOMENT, KEY_DISP_MOMENT, '', None, True, 'No Validator')
+        t11 = (KEY_MOMENT, KEY_DISP_MOMENT, TYPE_HEADING, None, True, 'No Validator')
         options_list.append(t11)
 
         t12 = (KEY_MOMENT_MAJOR, KEY_DISP_MOMENT_MAJOR, TYPE_TEXTBOX, None, False, 'No Validator')

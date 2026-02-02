@@ -1,5 +1,5 @@
 ## Project Investigator
-Prof. Siddhartha Ghosh, Dept. of Civil Engineering, IIT Bombay, Mumbai, India
+Siddhartha Ghosh, Professor, Dept. of Civil Engineering, IIT Bombay, Mumbai
 
 ## Project Research Staff
 - Aditya Donde
@@ -31,17 +31,6 @@ Prof. Siddhartha Ghosh, Dept. of Civil Engineering, IIT Bombay, Mumbai, India
 - Thushara Pushkaran
 - Yash Lokhande
 
-## IITB Students
-- Allan L Marbaniang
-- Annu Kumari
-- Aravind P
-- Bhumik Halani
-- Devesh Kumar
-- Jeffy Jahfar
-- Mayur Mistry
-- Neela Lakshmi
-- Sasir Pentyala
-- Sharayu Korade
 
 
 ## Project Interns
@@ -150,6 +139,18 @@ Prof. Siddhartha Ghosh, Dept. of Civil Engineering, IIT Bombay, Mumbai, India
 - Yash Lokhande
 - Yugh Juneja
 - Zunzunia Arsil
+
+## IITB Students
+- Allan L Marbaniang
+- Annu Kumari
+- Aravind P
+- Bhumik Halani
+- Devesh Kumar
+- Jeffy Jahfar
+- Mayur Mistry
+- Neela Lakshmi
+- Sasir Pentyala
+- Sharayu Korade
 
 ## Advisors
 - Arul Jayachandran S (IIT Madras, Chennai)  
