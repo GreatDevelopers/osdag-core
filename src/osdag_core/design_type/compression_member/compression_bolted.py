@@ -499,7 +499,7 @@ class Compression_bolted(Member):
         out_list.append(t_eff)
 
         # Design Compressive Stress (fcd) - IS 800 Cl 7.1.2.1
-        t_fcd = ('KEY_FCD', 'Design Compressive Stress, f_{cd} (MPa)', TYPE_TEXTBOX,
+        t_fcd = ('KEY_FCD', 'Design Compressive Stress, f<sub>cd</sub> (MPa)', TYPE_TEXTBOX,
                  self.f_cd if flag else '', True)
         out_list.append(t_fcd)
 
