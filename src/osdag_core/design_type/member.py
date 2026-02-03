@@ -2952,7 +2952,7 @@ class Member(Main):
         for key in values.keys():
             if key in input_dictionary.keys():
                 values[key] = input_dictionary[key]
-
+        
         optimum = []
 
         t2 = (KEY_IS_IT_SYMMETRIC, KEY_DISP_IS_IT_SYMMETRIC, TYPE_COMBOBOX, KEY_DISP_SYMMETRIC_list, values[KEY_IS_IT_SYMMETRIC])
