@@ -181,7 +181,7 @@ class EndPlateConnection(ShearConnection):
         else:
             fu = ''
 
-        val = {KEY_DP_BOLT_TYPE: "Pretensioned",
+        val = {KEY_DP_BOLT_TYPE: 'Pre-tensioned',
                KEY_DP_BOLT_HOLE_TYPE: "Standard",
                KEY_DP_BOLT_SLIP_FACTOR: str(0.3),
                KEY_DP_WELD_FAB: KEY_DP_FAB_SHOP,
@@ -932,7 +932,7 @@ class EndPlateConnection(ShearConnection):
         self.bolt.bolt_tension = self.load.axial_force * 1000 / no_bolt  # N
         # print("bolt_tension", self.bolt.bolt_tension)
         if self.bolt.bolt_type == TYP_FRICTION_GRIP:
-            self.bolt.bolt_tensioning = 'Pretensioned'
+            self.bolt.bolt_tensioning = 'Pre-tensioned'
         # TODO: check available effective width per pair of bolts (b_e)
         self.bolt.bolt_tension_prying = IS800_2007.cl_10_4_7_bolt_prying_force(self.bolt.bolt_tension, l_v,
                                                                                0.7 * self.bolt.bolt_fu, b_e,
@@ -1106,7 +1106,7 @@ class EndPlateConnection(ShearConnection):
             self.bolt.bolt_tension = self.load.axial_force * 1000 / no_bolt  # N
             # print("bolt_tension", self.bolt.bolt_tension)
             if self.bolt.bolt_type == TYP_FRICTION_GRIP:
-                self.bolt.bolt_tensioning = 'Pretensioned'
+                self.bolt.bolt_tensioning = 'Pre-tensioned'
             # TODO: check available effective width per pair of bolts (b_e)
             self.bolt.bolt_tension_prying = IS800_2007.cl_10_4_7_bolt_prying_force(self.bolt.bolt_tension, l_v,
                                         0.7*self.bolt.bolt_fu, b_e, self.plate.thickness_provided,
@@ -1609,7 +1609,7 @@ class EndPlateConnection(ShearConnection):
                   '','')
             self.report_check.append(t1)
 
-            if self.bolt.bolt_tensioning == 'Pretensioned':
+            if self.bolt.bolt_tensioning == 'Pre-tensioned':
                 beta = 1
             else:
                 beta = 2
