@@ -8,10 +8,11 @@ namespaces = true
 where = ["src"]
 
 [tool.setuptools.package-data]
-"osdag_core.data.ResourceFiles.images" = ["**/*.png", "**/*.PNG", "**/*.jpg", "**/*.jpeg"]
+"osdag_core.data.doc" = ["**/*.MD", "**/*.md", "**/*.TXT", "**/*.txt"]
+"osdag_core.data.ResourceFiles.images" = ["**/*.png", "**/*.PNG", "**/*.jpg", "**/*.JPG", "**/*.jpeg", "**/*.JPEG"]
 "osdag_core.data.ResourceFiles.Database" = ["*"]
 "osdag_gui.resources" = [
-    "**/*.png", "**/*.PNG", "**/*.jpg", "**/*.jpeg", "**/*.svg",
+    "**/*.png", "**/*.PNG", "**/*.jpg", "**/*.JPG", "**/*.jpeg", "**/*.JPEG", "**/*.svg",
     "**/*.qss", "**/*.ttf", "**/*.qrc"
 ]
 

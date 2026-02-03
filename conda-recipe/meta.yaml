@@ -7,7 +7,7 @@
 # when copying and pasting from another recipe, but not really needed.
 {% set name = "Osdag" %}
 {% set branch = "Mergeable" %}
-{% set version = "2026.01.0.0" %}
+{% set version = "2026.02.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -15,9 +15,9 @@ package:
 
 source:
   # url: https://github.com/osdag-admin/{{ name }}/archive/refs/heads/{{ branch }}.zip
-  git_url: https://github.com/osdag-admin/Osdag.git
-  git_rev: {{ branch }}
-  # path: ..
+  # git_url: https://github.com/osdag-admin/Osdag.git
+  # git_rev: {{ branch }}
+  path: ..
   # sha256: ???
   # sha256 is the preferred checksum -- you can get it for a file with:
   #  `openssl sha256 <file name>`.
@@ -59,10 +59,10 @@ requirements:
     - conda-forge::pylatex
     - conda-forge::pyside6
     - conda-forge::markdown
-    - osdag::osdag_latex_env
+    - zehen-249::osdag_latex_env
     - conda-forge::pythonocc-core
     - conda-forge::click
-    - conda-forge::yaml
+    - conda-forge::pyyaml
     - conda-forge::smesh
     - conda-forge::sqlite
     - conda-forge::tbb
