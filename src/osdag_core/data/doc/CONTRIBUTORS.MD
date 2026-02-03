@@ -152,21 +152,20 @@ Siddhartha Ghosh, Professor, Dept. of Civil Engineering, IIT Bombay, Mumbai
 - Sasir Pentyala
 - Sharayu Korade
 
-## Advisors
-- Arul Jayachandran S (IIT Madras, Chennai)  
-- Harshvardhan Subbarao (Construma Consultancy Pvt Ltd, Mumbai)  
-- Kannan Moudgalya (IIT Bombay, Mumbai)  
-- Manas M Ghosh (INSDAG, Kolkata)  
-- Meera Raghunandan (IIT Bombay, Mumbai)  
-- PC Ashwin Kumar (IIT Roorkee, Roorkee)  
-- Prabhu Ramachandran (IIT Bombay, Mumbai)  
-- Pradyumna M (Independent Consultant, Bengaluru)  
-- Pratip Bhattacharya (Tata Consulting Engineers Ltd, Kolkata)  
-- Rupen Goswami (IIT Madras, Chennai)  
-- SR Satish Kumar (IIT Madras, Chennai)  
-- Somnath Mukherjee (MN Dastur & Co (P) Ltd, Kolkata)  
-- V Kalyanaraman (IIT Madras, Chennai)  
-- Yogesh D Pisal (Aker Powergas Pvt Ltd, Mumbai)  
+## Advisors  
+- Harshvardhan Subbarao (Construma Consultancy Pvt Ltd, Mumbai)
+- Kannan Moudgalya (formerly with FOSSEE, IIT Bombay, Mumbai)
+- Manas M Ghosh (INSDAG, Kolkata)
+- Meera Raghunandan (IIT Bombay, Mumbai)
+- PC Ashwin Kumar (IIT Roorkee, Roorkee)
+- Prabhu Ramachandran (FOSSEE, IIT Bombay, Mumbai)
+- Pradyumna M (Independent Consultant, Bengaluru)
+- Pratip Bhattacharya (formerly with Tata Consulting Engineers Ltd, Kolkata)
+- Rupen Goswami (IIT Madras, Chennai)
+- Somnath Mukherjee (formerly with MN Dastur & Co (P) Ltd, Kolkata)
+- SR Satish Kumar (IIT Madras, Chennai)
+- V Kalyanaraman (formerly with IIT Madras, Chennai)
+- Yogesh D Pisal (Aker Powergas Pvt Ltd, Mumbai)
 
 ## Project Management Staff
 - Kiran Kishore  
