@@ -756,8 +756,8 @@ class Compression_welded(Member):
                (round(self.plate.block_shear_capacity / 1000, 2)) if (flag and hasattr(self.plate, 'block_shear_capacity')) else '', True)
         out_list.append(t21)
 
-        t17 = (KEY_OUT_PATTERN_2, KEY_OUT_DISP_PATTERN, TYPE_OUT_BUTTON, ['Shear Pattern ', self.plate_pattern], True)
-        out_list.append(t17)
+        # t17 = (KEY_OUT_PATTERN_2, KEY_OUT_DISP_PATTERN, TYPE_OUT_BUTTON, ['Shear Pattern ', self.plate_pattern], True)
+        # out_list.append(t17)
 
         t21 = (KEY_OUT_PLATE_CAPACITY, KEY_DISP_TENSION_CAPACITY, TYPE_TEXTBOX,
                (round(self.plate_tension_capacity / 1000, 2)) if (flag and hasattr(self, 'plate_tension_capacity')) else '', True)
