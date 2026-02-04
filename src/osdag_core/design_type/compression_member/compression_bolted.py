@@ -561,9 +561,9 @@ class Compression_bolted(Member):
                round(self.plate.bolt_force / 1000, 2) if flag else '', True)
         out_list.append(t14)
 
-        t17 = (KEY_OUT_SPACING, KEY_OUT_DISP_SPACING, TYPE_OUT_BUTTON,
-               ['Spacing Details', self.spacing], True)
-        out_list.append(t17)
+        # t17 = (KEY_OUT_SPACING, KEY_OUT_DISP_SPACING, TYPE_OUT_BUTTON,
+        #        ['Spacing Details', self.spacing], True)
+        # out_list.append(t17)
 
         t18 = (None, DISP_TITLE_GUSSET_PLATE, TYPE_TITLE, None, True)
         out_list.append(t18)
@@ -592,8 +592,8 @@ class Compression_bolted(Member):
                (round(self.plate.block_shear_capacity/ 1000, 2)) if flag else '', True)
         out_list.append(t24)
 
-        t17 = (KEY_OUT_PATTERN_2, KEY_OUT_DISP_PATTERN, TYPE_OUT_BUTTON, ['Shear Pattern ', self.plate_pattern], True)
-        out_list.append(t17)
+        # t17 = (KEY_OUT_PATTERN_2, KEY_OUT_DISP_PATTERN, TYPE_OUT_BUTTON, ['Shear Pattern ', self.plate_pattern], True)
+        # out_list.append(t17)
 
         # Intermittent Connection Details (only for built-up sections)
         t18_inter = (None, DISP_TITLE_INTERMITTENT, TYPE_TITLE, None, False)
