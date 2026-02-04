@@ -40,3 +40,4 @@ Output_PDF/*
 *.xlsx
 *.code-workspace
 **/testing_code/
+!license-dependencies.txt
